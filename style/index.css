@@ -1,0 +1,148 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-img {
+    height: 5vh;
+}
+
+.brand-text {
+    padding: 10px;
+    color: rgb(85, 85, 85);
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.navbar-light .navbar-nav .nav-item a {
+    border-radius: 20px;
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+}
+
+.navbar-light .navbar-nav .nav-item a:hover {
+    color: #fff;
+    background-color: rgb(0, 162, 232);
+}
+
+/* .hole-page{
+    height: 200vh;
+} */
+
+/* leftside page and nav(col-8) */
+.page {
+    background-color: antiquewhite;
+}
+
+/* show content */
+.page-roll {
+    padding-top: 20vh;
+}
+
+/* article title */
+.title-text {
+    font-weight: 700;
+}
+
+.title-date {
+    font-weight: 500;
+}
+
+/* article */
+.topic-title {
+    font-weight: 700;
+}
+
+.topic-content {
+    padding-top: 5vh;
+}
+
+.topic-list {
+    padding-top: 20px;
+}
+
+/* rightside name&photo */
+.info {
+    display: flex;
+    background-color: rgb(192, 248, 206);
+    border-left: 1px solid rgb(85, 85, 85);
+    z-index: 2;
+}
+
+.info-sticky {
+    top: 10vh;
+    height: 100vh;
+    position: sticky;
+}
+
+.info .row {
+    padding: 1vh;
+}
+
+.info-picture {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.social-icon {
+    height: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .info-picture {
+        height: 80px;
+        width: 80px;
+        border-radius: 40px;
+    }
+
+    .social-icon{
+        height: 30px;
+    }
+}
+
+
+
+/*go to top*/
+#btn-gotop {
+    display: none;
+    height: 50px;
+    width: 50px;
+    color: rgb(85, 85, 85);
+    background-color: #fff;
+    font-weight: 500;
+    position: fixed;
+    bottom: 15vh;
+    right: 10vw;
+    border: solid 1px rgb(85, 85, 85);
+    border-radius: 5px;
+    z-index: 10;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#btn-gotop:hover {
+    background-color: rgb(0, 162, 232);
+    color: #fff;
+}
+
+/* footer */
+.footer {
+    color: #fff;
+    height: 15vh;
+    background-color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    display: none;
+}
